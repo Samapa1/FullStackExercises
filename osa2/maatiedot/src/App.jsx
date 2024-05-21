@@ -68,7 +68,6 @@ const FilterCountries = ({allCountries, chosenLetters, setChosenLetters}) => {
       }
     
     if (countries.length === 1) {
-      console.log("found")
       return (<ShowOneCountry onecountry={countries[0]} />)
     }
   }
